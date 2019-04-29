@@ -27,9 +27,7 @@ const MainStack = createBottomTabNavigator(
 
 
 const AppStackNaigator = createStackNavigator({
-    Home: {
-        screen: HomePage
-    },
+    Home: HomePage,
     Login: { screen: LoginPage },
     SignUp: SignUpPage,
     MainStack: {
